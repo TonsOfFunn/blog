@@ -1,0 +1,18 @@
+[
+  {
+    "id": "welcome",
+    "title": "Welcome to the grid",
+    "date": "2025-03-07",
+    "tag": "meta",
+    "excerpt": "This blog runs on GitHub Pages. Add new posts by editing posts.json—no build step, no CMS.",
+    "body": "<p>This is a static blog with a dark cyber theme, built to run on GitHub Pages. Everything is plain HTML, CSS, and JavaScript.</p><h2>Adding new posts</h2><p>Open <code>posts.json</code> and add a new object to the array with: <code>id</code>, <code>title</code>, <code>date</code>, <code>tag</code>, <code>excerpt</code>, and <code>body</code>. Use HTML in the body (e.g. <code>&lt;p&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;ul&gt;</code>). Save, push to GitHub, and your new post goes live.</p><h2>Tech</h2><p>No frameworks, no bundler—just files that work in any browser and on GitHub Pages.</p>"
+  },
+  {
+    "id": "first-steps",
+    "title": "First steps with static sites",
+    "date": "2025-03-06",
+    "tag": "howto",
+    "excerpt": "Why static sites are fast, simple, and perfect for blogs and docs.",
+    "body": "<p>Static sites are just files: HTML, CSS, and JavaScript. No database, no server-side code at request time. That makes them fast and easy to host.</p><h2>Benefits</h2><ul><li>Fast loading—no server round-trips for content</li><li>Cheap or free hosting (e.g. GitHub Pages)</li><li>No backend to maintain or secure</li><li>Version control your content in Git</li></ul><p>This blog is one example: posts live in a JSON file, and the browser fetches and renders them. To add a post, you edit JSON and push.</p>"
+  }
+]
